@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2015",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "declaration": true,
+    "sourceMap": true
+  }
+}
