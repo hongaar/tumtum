@@ -1,4 +1,4 @@
-import { program, command } from 'bandersnatch'
+import { command, program } from 'bandersnatch'
 
 export default program().default(
   command('hello').action(() => {

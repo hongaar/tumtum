@@ -1,5 +1,5 @@
 {
-  "name": "@tumtum/generator",
+  "name": "@tumtum/compiler",
   "version": "0.0.0",
   "license": "MIT",
   "main": "lib/index.js",
@@ -16,8 +16,13 @@
     "test": "jest",
     "watch:test": "jest --watch"
   },
+  "dependencies": {
+    "nexe": "4.0.0-beta.14",
+    "webpack": "4.44.1"
+  },
   "devDependencies": {
     "@types/node": "14.6.3",
+    "@types/webpack": "4.41.22",
     "typescript": "4.0.2"
   }
 }
